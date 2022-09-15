@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="navbar-one header main-grid">
+        <div class="navbar-one-right">
+            <div class="nav-one-item">
+                <i class="fab fa-twitter"></i>
+            </div>
+            <div class="nav-one-item"><i class="fab fa-facebook-square"></i></div>
+            <div class="nav-one-item"><span>English</span></div>
+            <div class="nav-one-item"><span>MyPage</span></div>
+            <div class="nav-one-item"><span>Logout</span></div>
+        </div>
+    </div>
+
+    <header class="header header-home main-grid">
+        <div class="header-content">
+            <a class="logo-link" href="index.html">
+                <img src="images/logo.png" alt="" class="logo">
+            </a>
+            <button aria-label="Open navigation" class="open-nav">&#9776;</button>
+            <nav class="nav">
+                <button aria-label="Close navigation" class="close-nav">&times;</button>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link current">home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">about us</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<main>
+    <section class="hero main-grid">
+        <h1 class="hero-title">The only marketing agency on <span class="accent-color">a mission from God</span>, fully dedicated to increase your web traffic. </h1>
+        <p class="hero-subtitle">An SEO Company, Creating Custom <strong>SEO</strong> Services, <strong>PPC </strong> Management And <strong>Internet Marketing Services</strong> Since 2019.</p>
+        <a href="index.html" class="btn btn-primary">contact</a>
+    </section>
+
+    <section class="info main-grid">
+        <div class="col">
+            <h2 class="section-title section-title-center">About Us</h2>
+            <p>An SEO Company, Creating Custom <strong>SEO</strong> Services, <strong>PPC </strong> Management And <strong>Internet Marketing Services</strong> Since 2019.</p>
+        </div>
+        <div class="col">
+            <h2 class="section-title section-title-center">Our skills</h2>
+            <p>We are experts in <strong>SEO, SEM, and driving from the police</strong>. John is our <strong>social media specialist</strong>, and he has an amazing voice.</p>
+        </div>
+        <div class="col">
+            <h2 class="section-title section-title-center">Get in touch</h2>
+            <p>Send us an email with some info about what help you need and <strong>we’ll drive over to your place</strong> in our Bluesmobile the following day to discuss the deal.</p>
+        </div>
+    </section>
+
+    <section class="services-section main-grid">
+        <h2 class="services-heading section-title section-title-center"> Our Services</h2>
+        <div class="serveices-cols">
+            <div class="services">
+                <h2>Search Engine Optimization</h2>
+                <p>Search Engine Optimization (SEO) strategies and tactics will increase organic search visibility on Google, generating leads, sales, and revenue.</p>
+            </div>
+            <div class="services">
+                <h2>Websites Development</h2>
+                <p>Our team can provide a new or revamped website included with built-in SEO, improved performance, usability and accessibility.</p>
+            </div>
+            <div class="services">
+                <h2>Keyword Ranking</h2>
+                <p>We’ll deliver you detailed benchmark reports with existing keyword rankings and historical, organic search traffic and help you boost your rankings</p>
+            </div>
+            <div class="services">
+                <h2>Social Network Monitoring</h2>
+                <p>We’ll help manage your social media, identify effective strategies and help you identify your brand voice. In addition, we can integrate our expertise with your team.</p>
+            </div>
+            <div class="services">
+                <h2>Mobile Optimization</h2>
+                <p>Optimization for mobile devices is a must-have for search engine rankings. Our team will make sure you stay on top of mobile. We are Web Core Vitals and Page Speed Experts.</p>
+            </div>
+        </div>
+    
+        <p class="services-paragraph"><a href="">SEE THE WHOLE CATALOGUE OF SERVICES</a></p>
+    
+    </section>
+    <!-- Dynamic Content From javascript -->
+
+    <section class="dynamic-content">
+        <div class="heading section-title section-title-center">
+            <h2>What Our Customers Say About US!</h2>
+        </div>
+        <div id="persons-container"></div>
+        
+    </section>
+
+    <section class="partner-section services-section main-grid info">
+        <h2 class="partner-heading section-title section-title-center"> Partner </h2>
+
+        <div class="serveices-cols">
+            <div class="">
+                <img src="images/mozilla.png" alt="mozilla logo image">
+            </div>
+            <div class="">
+                <img src="images/google.png" alt="Google logo image">
+            </div>
+            <div>
+                <img src="images/naver.png" alt="naver logo image">
+            </div>
+            <div class="">
+                <img src="images/kakao.png" alt="kakao logo image">
+            </div>
+            <div class="">
+                <img src="images/airbnb.png" alt="airbnb logo image">  
+            </div>
+        </div>
+
+    
+        
+    
+    </section>
+</main>
+
+<footer class="footer main-grid">
+    <div class="footer-main">
+        <img src="images/logo.png" alt="" class="footer-logo">
+        <p class="footer-text">We are an SEO Company that's just trying to pay back its debt by helping others with their SEO, SEM, and Content Marketing needs.</p>
+        <p class="footer-fineprint">© Techsol Softwares Ltd 2022</p>
+    </div>
+    <ul class="social-list">
+        <li class="social-item"><a href="#" class="social-link"><i class="fab fa-facebook-square"></i></a></li>
+        <li class="social-item"><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></li>
+        <li class="social-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
