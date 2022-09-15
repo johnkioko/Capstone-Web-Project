@@ -14,7 +14,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://johnkioko.github.io/My-Portofolio-Project/)
+[Live Demo Link](https://johnkioko.github.io/Capstone-Web-Project/index.html)
 
 
 ## Getting Started
