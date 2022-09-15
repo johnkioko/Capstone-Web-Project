@@ -2,8 +2,7 @@
 
 # My Portofolio Project
 
-> Personal Portofolio Application to showcase Skills and My work projects accomplished.
-
+> This is a corporate website for an SEO firm. Its built with html, css and javascript. It is a capstone project used to test mastery in css, html and javascript. it is hosted on github pages and you can click on the demo link below to visit it. 
 
 ## Built With
 
@@ -52,6 +51,8 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+
+Cindy Shin in Behance - This project was built following a design by Cindy Shin.
 
 - Hat tip to anyone whose code was used
 - Inspiration
