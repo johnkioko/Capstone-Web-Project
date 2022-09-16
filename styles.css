@@ -336,6 +336,7 @@ strong {
 
 .footer-main {
   grid-area: main;
+  justify-self: center;
 }
 
 .footer-fineprint {
@@ -687,21 +688,28 @@ textarea {
   .heading {
     text-align: center;
     font-size: 24px;
-    margin-top: -40px;
+    /* margin-top: -40px; */
     margin-bottom: 5rem;
   }
 }
 
 /* Partner Section  */
 
+.partner-section-imgs {
+  width: 60%;
+  height: 20px;
+  margin-top: 0%;
+}
+
 .partner-section {
-  background: #fff;
+  background: #272a31;
+  border-radius: 4px;
 }
 
 .partner-heading {
-  color: #272a31;
+  color: #d3d3d3;
   font-size: 24px;
-}
+} 
 
 @media (max-width: 768px) {
   .partner-section {
