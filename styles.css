@@ -249,8 +249,6 @@ strong {
     padding: 0;
     height: 100%;
     align-items: center;
-    /* justify-content: space-around;
-    flex-direction: column; */
     flex-direction: row;
     justify-content: flex-end;
   }
@@ -700,7 +698,7 @@ textarea {
 .partner-heading {
   color: #d3d3d3;
   font-size: 24px;
-} 
+}
 
 @media (max-width: 768px) {
   .partner-section {
@@ -729,7 +727,7 @@ textarea {
 .about-us-bg {
   padding: 1rem;
   background: #fff;
-  border-bottom:  #d3d3d3 0.2px solid;
+  border-bottom: #d3d3d3 0.2px solid;
 }
 
 .about-us-bg-1 {
@@ -744,8 +742,6 @@ textarea {
   width: 200px;
   height: 100px;
   border: #d3d3d3 0.2px solid;
-  /* box-shadow: 10px 10px 10px #d3d3d3; */
-
 }
 
 .about-us-email {
@@ -780,4 +776,3 @@ textarea {
   background-color: rgba(236, 82, 66, 0.8);
   background-blend-mode: multiply;
 }
-
