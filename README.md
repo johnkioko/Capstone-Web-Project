@@ -1,56 +1,44 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# My Portofolio Project
 
-> Description the project.
-
+> This is a corporate website for an SEO firm. Its built with html, css and javascript. It is a capstone project used to test mastery in css, html and javascript. it is hosted on github pages and you can click on the demo link below to visit it. 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html
+- Css
+- Javascript
+- Git and Github
+
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://johnkioko.github.io/Capstone-Web-Project/index.html)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+** this project runs on any browser
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+Any browser
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **John Mutisya**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/johnkioko)
+- Twitter: [@twitterhandle](https://twitter.com/@john_the_web_dev)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/johnkioko)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤
 
 ## 🤝 Contributing
 
@@ -64,12 +52,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+Cindy Shin in Behance - This project was built following a design by Cindy Shin.
+
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.MD) licensed.

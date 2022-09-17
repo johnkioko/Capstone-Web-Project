@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jake & Elwood</title>
+        <!-- viewport meta to render pages on mobile properly -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- link to google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+        
+        <!-- https://cdnjs.com/libraries/font-awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" rel="stylesheet">
+        
+        <!-- link to my CSS -->
+        <link href="styles.css" rel="stylesheet">
+    </head>
+     <body>
+        <header class="header header-home main-grid">
+
+            <div class="header-content-1">
+                <div class="nav-1">
+                    <ul class="nav-list-1">
+                        <li class="nav-item-1"><a href="#" class="nav-link-1"><i class="fab fa-twitter"></i></a></li>
+                        <li class="nav-item-1"><a href="#" class="nav-link-1"><i class="fab fa-facebook-square"></i></a></li>
+                        <li class="nav-item-1"><a href="#" class="nav-link-1">English</a></li>
+                        <li class="nav-item-1"><a href="#" class="nav-link-1">MyPage</a></li>
+                        <li class="nav-item-1"><a href="#" class="nav-link-1">Logout</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div class="header-content">
+                <a class="logo-link" href="index.html">
+                    <img src="images/logo.png" alt="" class="logo">
+                </a>
+                <button aria-label="Open navigation" class="open-nav">&#9776;</button>
+                <nav class="nav">
+                    <button aria-label="Close navigation" class="close-nav">&times;</button>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">about us</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link current">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <main class="main-template main-grid">
+            
+            <h1 class="page-title">Contact.</h1>
+            <p class="subtitle">Let us know how we can help you need and we’ll drive over to your place in our Bluesmobile the following day to discuss the deal.</p>
+            
+            <img class="main-image" src="images/contact.jpg" alt="a bunch of mailboxes">
+            <div class="secondary-text">
+                <h2 class="section-title">Getting in touch with us</h2>
+                <p>You can either use the form or send us an email. I'll get back in touch with you as soon as possible!</p>
+            </div>
+                        
+            <div class="main-text">
+                <form class="contact-form" action="#" method="POST">
+                    
+                    <label class="fname-label" for="fname">First Name</label>
+                    <input class="fname-input" id="fname" type="text">
+                    
+                    <label class="lname-label" for="lname">Last Name</label>
+                    <input class="lname-input" id="lname" type="text">
+                    
+                    <label class="message-label" for="message">Message</label>
+                    <textarea class="message-textarea" id="message"></textarea>
+                    
+                    <button class="btn btn-primary btn-form">send</button>
+                </form>
+            </div>
+            
+        
+        </main>
+        
+        <footer class="footer main-grid">
+            <div class="footer-main">
+                <img src="images/logo.png" alt="" class="footer-logo">
+                <p class="footer-fineprint">© Techsol Softwares Ltd 2022. Some Rights Reserved</p>
+            </div>
+            
+        </footer>
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>
