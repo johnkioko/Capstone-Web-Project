@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Portofolio Project
+# SEO Corporate Website
 
 > This is a corporate website for an SEO firm. Its built with html, css and javascript. It is a capstone project used to test mastery in css, html and javascript. it is hosted on github pages and you can click on the demo link below to visit it. 
 
